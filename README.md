@@ -15,7 +15,7 @@ First, make sure you have installed [Sketch](http://sketchapp.com) version 43+, 
 Open a new Sketch file, then in a terminal:
 
 ```bash
-git clone https://github.com/airbnb/react-sketchapp.git
+git clone https://github.com/luisjmontoro/thonet-react-sketchapp.git
 cd react-sketchapp/examples/basic-setup && npm install
 
 npm run render
