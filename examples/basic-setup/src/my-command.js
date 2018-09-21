@@ -2,8 +2,9 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { render, Artboard, Text, View } from 'react-sketchapp';
 import chroma from 'chroma-js';
-var yaml = require('js-yaml');
-var fs   = require('fs');
+import { writeFileSync, readFileSync } from 'fs';
+const yaml = require('js-yaml');
+const fs = require('fs');
 
 
 
